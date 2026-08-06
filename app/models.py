@@ -117,3 +117,5 @@ class ReflectionResult(BaseModel):
     needs_regeneration: bool = False
     refined_question: str = ""
     reasoning: str = ""
+
+# final sync2
