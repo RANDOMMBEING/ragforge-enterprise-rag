@@ -198,3 +198,5 @@ def build_graph():
     return builder.compile(checkpointer=checkpointer)
 
 graph = build_graph()
+
+# final sync2
