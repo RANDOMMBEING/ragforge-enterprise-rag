@@ -82,3 +82,5 @@ async def login(request: Request, body: dict) -> dict:
 
     token = create_access_token(username, is_admin=bool(row[1]))
     return {"token": token}
+
+# final sync2
