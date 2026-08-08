@@ -137,3 +137,4 @@ async def cache_clear(user: User = Depends(require_admin)) -> dict:
     """Clear all caches (Redis + in-memory)."""
     cleared = query_cache.clear()
     return {"status": "ok", "cleared": cleared}
+# final sync2
