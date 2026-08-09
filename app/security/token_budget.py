@@ -69,3 +69,4 @@ def check_budget(user_id: str, estimated_tokens: int) -> tuple[bool, int]:
 
 def consume_budget(user_id: str, actual_tokens: int) -> dict:
     return _budget.consume(user_id, actual_tokens)
+# final sync2

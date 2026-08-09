@@ -78,3 +78,4 @@ def check_input_safe(text: str) -> tuple[bool, str | None]:
     return False, f"Input blocked by {checks}"
 
     
+# final sync2
