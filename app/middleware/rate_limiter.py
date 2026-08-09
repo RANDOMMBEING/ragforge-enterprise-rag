@@ -53,3 +53,4 @@ def is_allowed_user(
     limiter = RateLimiter(max_requests=limit, window_seconds=window_seconds)
     key = f"rate_limit:user:{user_id}"
     return limiter.is_allowed(key)
+# final sync2
