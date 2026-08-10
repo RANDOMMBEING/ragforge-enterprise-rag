@@ -82,3 +82,4 @@ def restructure_input(text: str) -> tuple[str, str]:
         return truncate_text(text, effective_limit)
 
     return summarize_text(text, effective_limit)
+# final sync2
