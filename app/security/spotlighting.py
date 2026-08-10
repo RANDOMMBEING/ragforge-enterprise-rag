@@ -16,3 +16,5 @@ def build_spotlighted_context(chunks: list[RetrievedChunk]) -> str:
         lines.append("  </chunk>")
     lines.append("</retrieved_context>")
     return "\n".join(lines)
+
+# final sync2

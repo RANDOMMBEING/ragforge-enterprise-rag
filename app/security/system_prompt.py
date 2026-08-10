@@ -34,3 +34,4 @@ Return a JSON object with exactly these fields:
 def build_system_prompt() -> str:
     """Return the hardened system prompt for the Kubernetes IT-Operations domain."""
     return HARDENED_SYSTEM_PROMPT
+# final sync2
