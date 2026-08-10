@@ -95,3 +95,5 @@ def moderate_and_redact(text: str) -> tuple[bool, str, str | None]:
     allowed, reason = moderate_output(text)
     redacted = redact_pii(text)
     return allowed, redacted, reason
+
+# final sync2
