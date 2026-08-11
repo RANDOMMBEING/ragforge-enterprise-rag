@@ -35,3 +35,5 @@ def embed_texts(texts: list[str], model: str | None = None) -> list[list[float]]
 
     return [r for r in results if r is not None]
 
+
+# final sync2
