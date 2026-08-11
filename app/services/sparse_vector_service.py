@@ -76,3 +76,4 @@ def fuse_rrf(
         for text, score in sorted(scores.items(), key=lambda x: x[1], reverse=True)
     ]
     
+# final sync2

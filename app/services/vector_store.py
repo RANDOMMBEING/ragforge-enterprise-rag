@@ -99,3 +99,5 @@ def hybrid_search(
     sparse_results = sparse_index.search(query_text, top_k=sparse_top_k)
     fused = fuse_rrf([dense_results, sparse_results], rrf_k=rrf_k)
     return fused[:top_k]
+
+# final sync2
