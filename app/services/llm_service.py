@@ -55,3 +55,4 @@ def generate_with_json(
         "total_tokens": response.usage.total_tokens if response.usage else 0,
     }
     return {"text": text, "usage": usage}
+# final sync2
