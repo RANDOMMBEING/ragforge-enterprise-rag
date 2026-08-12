@@ -30,3 +30,4 @@ def search_web(query: str, max_results: int = 5) -> list[RetrievedChunk]:
     except Exception:
         logger.exception("Tavily web search failed")
         return []
+# final sync2
