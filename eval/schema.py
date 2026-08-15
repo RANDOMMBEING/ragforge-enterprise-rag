@@ -68,3 +68,4 @@ def load_goldens(path: str | Path) -> list[Golden]:
         warnings.warn(f"No golden entries for features: {missing} (OK if demo-only)")
 
     return goldens
+# final sync2
