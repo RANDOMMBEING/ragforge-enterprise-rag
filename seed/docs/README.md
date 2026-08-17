@@ -65,3 +65,5 @@ user asks about returns indicates a security regression.
 The eval golden `q-021` checks this — it has a `forbidden_keywords` list that
 the runner asserts the answer does NOT contain. Used in course video V23
 (threat model) to demonstrate the L8 + L3 defenses.
+
+<!-- final sync2 -->
