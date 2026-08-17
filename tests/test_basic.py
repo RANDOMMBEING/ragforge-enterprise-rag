@@ -12,3 +12,4 @@ def test_config_import():
     """Test that config can be imported."""
     from app.config import settings
     assert settings is not None
+# final sync2
