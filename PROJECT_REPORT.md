@@ -516,3 +516,5 @@ Possible enhancements learners can attempt after finishing the core project:
 *Hybrid Search • ReRanking • HyDE • CRAG • Self-RAG • Text2SQL • Caching • 9-Layer Guardrails*
 
 </div>
+
+<!-- final sync2 -->
